@@ -1,0 +1,20 @@
+{
+  "name": "audio-playback",
+  "description": "Audio playback using Tone.js including players, transport, scheduling, and loading audio. Use when implementing background music, sound effects, audio synchronization, or timed audio events. Essential for any audio-enabled web application.",
+  "tags": [
+    "audio",
+    "javascript",
+    "code-generation"
+  ],
+  "sub_skills": [],
+  "source": "claude-user",
+  "type": "template",
+  "depends_on": [],
+  "enhances": [
+    "audio-reactive",
+    "audio-analysis"
+  ],
+  "last_reviewed_at": "2026-05-19",
+  "review_score": 60,
+  "relevance_tier": "B"
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "audio-playback": {
+      "source": "bbeierle12/skill-mcp-claude",
+      "sourceType": "github",
+      "skillPath": "skills/audio-playback/SKILL.md",
+      "computedHash": "8760c87979782bc4d09eb1feb662d946a79bcb10545b264ec4023b04023dbe29"
+    }
+  }
+}

@@ -1,19 +1,41 @@
 {
-    "eslint.options": {},
-    "eslint.validate": [
-        "javascript",
-        "typescript",
-        "vue",
-    ],
-    "vetur.validation.template": false,
-    "editor.tabSize": 2,
-    "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
-    "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
-    "javascript.format.insertSpaceAfterConstructor": true,
-    "typescript.format.insertSpaceAfterConstructor": true,
-    "typescript.tsdk": "node_modules/typescript/lib",
-    "editor.formatOnSave": true,
-    "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true
-    },
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+
+  // Set default formatters for specific file types
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+
+  // ESLint configuration
+  "eslint.options": {},
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "vue"
+  ],
+
+  // JavaScript and TypeScript formatting preferences
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "javascript.format.insertSpaceAfterConstructor": true,
+  "typescript.format.insertSpaceAfterConstructor": true,
+  "typescript.tsdk": "node_modules/typescript/lib",
+
+  // Legacy Vetur template validation disabled (to avoid conflicts with Volar)
+  "vetur.validation.template": false,
+
+  // Volar TypeScript utility configuration
+  "volar.typescript.utilityPath": ""
 }
